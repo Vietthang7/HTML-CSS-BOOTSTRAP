@@ -1,0 +1,80 @@
+/* section One */
+*{
+  box-sizing: border-box;
+}
+.section-one {
+  background: #F9FCF9;
+  padding: 60px 0;
+}
+
+.section-one .inner-box i {
+  color: #74B67A;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.section-one .inner-box .inner-title {
+  font-size: 25px;
+}
+
+.section-one .inner-box {
+  margin: 15px 0;
+}
+
+.section-one .inner-box .inner-desc {
+  font-size: 18px;
+}
+
+/* End Section One */
+
+/*  Section Two */
+.section-two .inner-image img {
+  width: 100%;
+  height: auto;
+}
+
+.section-two .inner-head .inner-title {
+  font-size: 32px;
+  text-align: center;
+  /* position: relative; */
+}
+
+
+.section-two .inner-head .inner-desc {
+  text-align: center;
+  color: #989A98;
+  margin-bottom: 40px;
+}
+
+.section-two .inner-content b {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+/* Kích thước nhỏ hơn 1200px */
+@media (max-width: 1199.98px) {
+  /* Code… */
+}
+
+/* Kích thước nhỏ hơn 992px */
+@media (max-width: 991.98px) {
+  .section-two .inner-left {
+    order: 1;
+  }
+
+  .section-two .inner-content {
+    margin-top: 30px;
+  }
+}
+
+/* Kích thước nhỏ hơn 768px */
+@media (max-width: 767.98px) {
+  /* Code… */
+}
+
+/* Kích thước nhỏ hơn 576px */
+@media (max-width: 575.98px) {
+  /* Code… */
+}
+
+/* End Section Two */

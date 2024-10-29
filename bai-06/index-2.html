@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    /* a[target]{
+      background-color: yellow;
+    } */
+    /* a[target="_blank"]{
+      background-color: yellow;
+    } */
+    /* a[title="Website google"]{
+      background-color: yellow;
+    } */
+    a[title~="Facebook"]{
+      background-color: yellow;
+    }
+  </style>
+  <a href="https://www.google.com/?hl=vi" title="Website google">Google</a>
+  <a href="https://www.facebook.com/" title="Website Facebook" target="_blank">Facebook</a>
+  <a href="https://www.youtube.com/" title="Website youtube" target="">youtube</a>
+</body>
+</html>

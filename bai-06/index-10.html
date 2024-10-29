@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <style>
+    h1 {
+      color: red;
+      font-size: 80px;
+    }
+
+    /*Ipad ngang(1024 x 768)*/
+    @media screen and (max-width: 1024px) {
+      h1 {
+        color: green;
+        font-size: 60px;
+      }
+    }
+
+    /*Ipad dọc(768 x 1024)*/
+    @media screen and (max-width: 768px) {
+      h1 {
+        color: blue;
+        font-size: 40px;
+      }
+    }
+
+    /* Smart phone (480 x 640)*/
+    @media screen and (max-width: 480px) {
+      h1 {
+        color: blueviolet;
+        font-size: 30px;
+      }
+    }
+
+    /* Smart phone nhỏ */
+    @media screen and (max-width: 320px) {
+      h1 {
+        color: rgb(226, 95, 43);
+        font-size: 20px;
+      }
+    }
+  </style>
+  <h1>Lorem ipsum, amleniti!
+    Itaque, ipsa.</h1>
+</body>
+
+</html>

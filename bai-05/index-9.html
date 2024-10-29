@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- <style>
+    /* .box span{
+      background-color: olive;
+    } */
+    .box::before{
+      content: "Nội dung đằng trước";
+      background-color: brown;
+      display: inline-block;
+      padding-top: 20px;
+      margin-top: 20px;
+    }
+    .box::after{
+      content: "Nội dung đằng sau";
+    }
+  </style>
+  <div class="box">
+    <span>Nội dung đằng trước</span> -->
+  <!-- Nội dung 1
+  </div> -->
+  <style>
+    /* .box::first-letter{
+      font-size: 40px;
+    } */
+    .box::first-line {
+      text-transform: uppercase;
+    }
+
+    ul li::marker {
+      color: brown;
+      font-size: 30px;
+    }
+    .text::selection{
+      background: burlywood;
+      color: blueviolet;
+    }
+  </style>
+  <div class="box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia eum veniam, eligendi commodi
+    numquam quaerat molestias ea veritatis a, earum modi delectus voluptas quasi dolorem laboriosam iusto quia sapiente
+    perspiciatis!</div>
+  <ul>
+    <li>Mục 1</li>
+    <li>Mục 2</li>
+    <li>Mục 3</li>
+  </ul>
+  <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate explicabo placeat nostrum? Ea
+    deleniti nobis saepe reprehenderit quidem. Qui, praesentium. Odio repellat similique totam inventore culpa sunt qui.
+    Est, hic.</p>
+</body>
+
+</html>

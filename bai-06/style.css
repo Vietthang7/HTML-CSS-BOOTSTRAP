@@ -1,0 +1,11 @@
+:root {
+  --color-one: #006; --color-two:#006c01;
+}
+
+h2 {
+  color: var(--color-one);
+}
+
+p {
+  color: var(--color-two);
+}
