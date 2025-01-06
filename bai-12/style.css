@@ -18,7 +18,10 @@
   margin-bottom: 30px;
 }
 
-.box-head .inner-title:before {
+
+
+
+.section-one .box-head .inner-title:before {
   content: "";
   position: absolute;
   display: block;
@@ -31,7 +34,7 @@
   margin: auto;
 }
 
-.box-head .inner-title::after {
+.section-one .box-head .inner-title::after {
   content: "";
   position: absolute;
   display: block;
@@ -102,4 +105,72 @@
 
 .section-one .inner-form textarea {
   resize: none;
+}
+
+/* Section -Two */
+.section-two {
+  margin-top: 30px;
+}
+
+.section-two .box-head h2 {
+  margin-bottom: 15px;
+  color: #204162;
+  font-weight: 600;
+}
+
+.section-two .box-head .inner-desc {
+  font-size: 17px;
+  opacity: 0.8;
+}
+
+.section-two .box-head {
+  margin-bottom: 50px;
+}
+
+.section-two .inner-main .inner-content {
+  padding: 30px 15px;
+  text-align: center;
+  background: #F9F9F9;
+  border-radius: 8px;
+}
+
+.section-two .inner-main {
+  position: relative;
+}
+
+.section-two .inner-main .inner-content::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #f00;
+  top: 100%
+}
+
+
+
+.section-two .inner-info {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.section-two .inner-info img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.section-two .inner-info .inner-name {
+  margin-top: 8px;
+  font-size: 18px;
+  color: #204162;
+  margin-bottom: 0;
+}
+
+.section-two .inner-info .inner-position {
+  opacity: 0.6;
+  margin-top: 5px;
 }
